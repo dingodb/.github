@@ -122,8 +122,8 @@ We recommend Rocky and Ubuntu to develop the DingoFS codebase.
 We recommend using GCC 13 as the primary compiled language.
 
 <a id="header3"></a>
-# 3. Dingo-HFMirror{#header3}
-[HFMirror](https://github.com/dingodb/dingo-hfmirror) is a self-hosted Hugging Face mirror service designed and developed by [DataCanvas](https://www.datacanvas.com/), which provides users with a convenient and efficient solution for accessing and managing model resources. Through local mirroring, users can reduce their reliance on remote Hugging Face servers, improve resource acquisition speed, and achieve local storage and management of data.
+# 3. Dingo-HFMirror
+[Dingo-HFMirror](https://github.com/dingodb/dingo-hfmirror) is a self-hosted Hugging Face mirror service designed and developed by [DataCanvas](https://www.datacanvas.com/), which provides users with a convenient and efficient solution for accessing and managing model resources. Through local mirroring, users can reduce their reliance on remote Hugging Face servers, improve resource acquisition speed, and achieve local storage and management of data.
 
 ## Key Features
 
