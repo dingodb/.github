@@ -1,7 +1,7 @@
 **Dingo** products, designed and developed by [DataCanvas](https://www.datacanvas.com/), comprises a range of innovative solutions, including DingoDB (a distributed multi-modal vector database), DingoFS (a cloud-native distributed high-speed file storage system), and Dingo-HFMirror (a self-hosted Hugging Face mirroring service). Each product delivers unique features and serves distinct application scenarios. Below is a detailed overview of the Dingo series.
 
+  🖥️[DingoDB](#header1) |  💾[DingoFS](#header2) |  💿[Dingo-HFMirror](#header3) 
 
-[DingoDB](#header1) |  [DingoFS](#header2) |  [Dingo-HFMirror](#header3) 
 
 <a id="header1"></a>
 # 1. DingoDB
@@ -175,7 +175,8 @@ make license
 
 ## Quick Start
 
-Deploy the compiled binary file and execute ./dingo-hfmirror to start the service. Then set the environment variable HF_ENDPOINT to the mirror site (here it is http://localhost:8090/).
+> [!IMPORTANT]
+> Deploy the compiled binary file and execute ./dingo-hfmirror to start the service. Then set the environment variable HF_ENDPOINT to the mirror site (here it is http://localhost:8090/).
 
 Linux:
 ```
@@ -241,12 +242,11 @@ You can view the path ./repos, where the caches of all datasets and models are s
 
 DingoDB & DingoFS & Dingo-HFMirror are Sponsored by [DataCanvas](https://www.datacanvas.com/), a new platform to do data science and data process in real-time.welcome any feedback from the community.
 
-For any support or suggestion, please contact us.
+> [!TIP]
+> If you have any technical questions or business needs, please contact us.
+> 
+> Attach the Wetchat QR Code
 
-## Contact us
-
-If you have any technical questions or business needs, please contact us.
-
-Attach the Wetchat QR Code
-
-![](https://github.com/dingodb/dingo/blob/develop/docs/en/images/dingo_contact_Wetchat.png)
+<p align="center">
+    <img src="https://github.com/dingodb/dingo/blob/develop/docs/en/images/dingo_contact_Wetchat.png">
+<p>
