@@ -1,6 +1,6 @@
-**Dingo** products, designed and developed by [DataCanvas](https://www.datacanvas.com/), comprises a range of innovative solutions, including DingoDB (a distributed multi-modal vector database), DingoFS (a cloud-native distributed high-speed file storage system), and Dingo-HFMirror (a self-hosted Hugging Face mirroring service). Each product delivers unique features and serves distinct application scenarios. Below is a detailed overview of the Dingo series.
+**Dingo** products, designed and developed by [DataCanvas](https://www.datacanvas.com/), comprises a range of innovative solutions, including DingoDB (a distributed multi-modal vector database), DingoFS (a cloud-native distributed high-speed file storage system), and DingoSpeed (a self-hosted Hugging Face mirroring service). Each product delivers unique features and serves distinct application scenarios. Below is a detailed overview of the Dingo series.
 
-  🖥️[DingoDB](#header1) |  💾[DingoFS](#header2) |  💿[Dingo-HFMirror](#header3) 
+  🖥️[DingoDB](#header1) |  💾[DingoFS](#header2) |  💿[DingoSpeed](#header3) 
 
 
 <a id="header1"></a>
@@ -122,8 +122,8 @@ We recommend Rocky and Ubuntu to develop the DingoFS codebase.
 We recommend using GCC 13 as the primary compiled language.
 
 <a id="header3"></a>
-# 3. Dingo-HFMirror
-[Dingo-HFMirror](https://github.com/dingodb/dingo-hfmirror) is a self-hosted Hugging Face mirror service designed and developed by [DataCanvas](https://www.datacanvas.com/), which provides users with a convenient and efficient solution for accessing and managing model resources. Through local mirroring, users can reduce their reliance on remote Hugging Face servers, improve resource acquisition speed, and achieve local storage and management of data.
+# 3. DingoSpeed
+[DingoSpeed](https://github.com/dingodb/DingoSpeed) is a self-hosted Hugging Face mirror service designed and developed by [DataCanvas](https://www.datacanvas.com/), which provides users with a convenient and efficient solution for accessing and managing model resources. Through local mirroring, users can reduce their reliance on remote Hugging Face servers, improve resource acquisition speed, and achieve local storage and management of data.
 
 ## Key Features
 
@@ -133,7 +133,7 @@ Cache the resources downloaded for the first time. When the client makes a subse
 
 **2. Convenient Access**
 
-There is no need for scientific internet access or complex network configuration. Simply deploy the dingo-hfmirror service and use it as the proxy address to easily complete the download.
+There is no need for scientific internet access or complex network configuration. Simply deploy the DingoSpeed service and use it as the proxy address to easily complete the download.
 
 **3. Traffic Reduction and Load Alleviation**
 
@@ -240,7 +240,7 @@ You can view the path ./repos, where the caches of all datasets and models are s
 
 ### DataCanvas
 
-DingoDB & DingoFS & Dingo-HFMirror are Sponsored by [DataCanvas](https://www.datacanvas.com/), a new platform to do data science and data process in real-time.welcome any feedback from the community.
+DingoDB & DingoFS & DingoSpeed are Sponsored by [DataCanvas](https://www.datacanvas.com/), a new platform to do data science and data process in real-time.welcome any feedback from the community.
 
 > [!TIP]
 > If you have any technical questions or business needs, please contact us.
